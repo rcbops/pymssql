@@ -34,6 +34,7 @@ DEF EXCOMM = 9
 # Provide constants missing in FreeTDS 0.82 so that we can build against it
 DEF DBVERSION_71 = 5
 DEF DBVERSION_72 = 6
+DEF DBVERSION_80 = DBVERSION_71
 
 ROW_FORMAT_TUPLE = 1
 ROW_FORMAT_DICT = 2
