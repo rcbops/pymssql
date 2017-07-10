@@ -1,6 +1,13 @@
 Recent Changes
 ==============
 
+Version 2.1.3.0.0.1 - 2017-07-07 - Jonathan W. Zaleski
+======================================================
+
+- Address "error: 'DBVERSION_80' undeclared (first use in this function)"
+  error during build (``DBVERSION_80`` is aliased to ``DBVERSION_71`` for
+	consistency the pattern applied elsewhere in this project)
+
 Version 2.1.3 - 2016-06-22 - Ramiro Morales
 ===========================================
 
@@ -12,7 +19,7 @@ Version 2.1.3 - 2016-06-22 - Ramiro Morales
   * No SSL support
 
 Version 2.1.2 - 2016-02-10 - Ramiro Morales
-===============================================
+===========================================
 
 .. attention:: Windows users: You need to download and install additional DLLs
 
